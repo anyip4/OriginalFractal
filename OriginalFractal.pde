@@ -15,8 +15,8 @@ public void squares(int x, int y, float length){
 	}else{
 		noFill();
 		stroke(255);
-		rect(x-1, y-1, length-5, length-5);
-		squares(x-1,y-1,length/1.02);
+		rect(x-1, y+1, length-5, length-5);
+		squares(x+1,y+1,length/1.02);
 
 	}
 }
